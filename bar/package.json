@@ -1,0 +1,34 @@
+{
+  "name": "bar",
+  "version": "0.0.1",
+  "description": "bar to display text",
+  "main": "app/index.html",
+  "window": {
+    "toolbar": true,
+    "height": 100,
+    "width": 1000,
+    "resizable": false,
+    "as_desktop": true,
+    "frame": false,
+    "transparent": true
+  },
+  "scripts": {
+    "test": "mocha test",
+    "css": "sass source/main.scss:app/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stayradiated/bar.git"
+  },
+  "keywords": [
+    "bar"
+  ],
+  "author": "George Czabania",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/stayradiated/bar/issues"
+  },
+  "devDependencies": {
+    "mocha": "1.15.x"
+  }
+}
