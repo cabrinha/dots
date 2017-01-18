@@ -9,7 +9,7 @@
    * JS just for the sake of having comments.
    */
 
-  root = '/Users/cabrinha/devel/bar/bin/';
+  root = '/Users/cabrinha/devel/dots/bar/bin/';
 
   config = {
 
